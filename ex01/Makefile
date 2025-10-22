@@ -1,9 +1,9 @@
-NAME			=	megaphone
+NAME			=	my_awesome_phonebook
 
 CXX				=	c++
 CXXFLAGS		=	-Wall -Wextra -Werror -std=c++98
 
-SRCS			=	megaphone.cpp
+SRCS			=	main.cpp Contact.cpp PhoneBook.cpp
 
 OBJS_PATH		=	objs/
 OBJS			=	$(SRCS:%.cpp=objs/%.o)
