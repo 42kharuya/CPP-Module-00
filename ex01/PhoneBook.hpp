@@ -1,6 +1,9 @@
 #ifndef _PHONE_BOOK_H_
 #define _PHONE_BOOK_H_
+#include <sstream>
 #include "Contact.hpp"
+
+#define PROMPT ">"
 
 class PhoneBook {
 	public:
